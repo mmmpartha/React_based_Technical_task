@@ -103,7 +103,7 @@ function App() {
       <br />
       <input onChange={(e) => setInput(e.target.value)} minLength="1" maxLength="10000" />
       <button onClick={() => stringReverse()}>Reverse String</button>
-      <h1>{data}</h1>
+      <h1>{input}</h1>
       <br/>
       <button onClick={()=> MaxMinElement()}>Max/Min Element</button>
     </div>
